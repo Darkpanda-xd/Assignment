@@ -1,0 +1,134 @@
+.h-wrapper{
+    margin-left: 104px;
+    min-height: 97vh;
+}
+.user-profile {
+    position: absolute;
+    top: 36px;
+    max-width: 225px;
+    display: flex;
+    flex-direction: column;
+  
+}
+.profile-item{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+}
+.profile-item>img{
+    margin-bottom: 10px;
+
+}
+.profile-item>h1{
+  font-size: 24px;
+  color:#242831;
+line-height: 34px;    
+}
+.profile-item>h3{
+    font-size: 12px;
+    font-weight: 400;
+    color: #6B6B6B;
+    line-height: 16.8px;
+}
+.checklist{
+    display: flex;
+     
+}
+.border{
+    content: '';
+    background: #6B6B6B;
+    position: relative;
+    height: 34px;
+    width: 1px;
+    opacity: 0.5;
+    top: 15px;
+    left: 8px
+
+}
+.past{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 41px 48px ;
+}
+.past>h4{
+    font-weight: 400;
+    font-size: 20px;
+   
+    color:#242831 ;
+    
+}
+.past>p{
+    font-size: 12px;
+    color: #6B6B6B;
+    font-weight: 400;
+}
+
+.btn{
+    padding: 8px 0;
+    background: transparent;
+    border: solid 1px #D9D9D9;
+    font-size: 14px;
+    font-weight: 500;
+    color: #242831;
+    border-radius: 5px;
+
+}
+.files{
+    position: absolute;
+    max-width: 225px;
+    top: 400px;
+}
+.files>h4{
+    font-size: 16px;
+    font-weight: 400;
+    color:  #242831;
+    margin-bottom: 39px;
+}
+.p-records{
+    position: absolute;
+   top: 263px;
+   left: 364px;
+   height: 43px;
+  background: #F8F8F8;
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+   
+}
+.p-btn{
+  padding: 8px 28px;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  color: #6B6B6B;
+}
+
+.p-btn:active{
+    background: #FFFFFF;
+    color: blue;
+}
+.active{
+    background: #FFFFFF;
+    color: blue;
+}
+.p-btn:hover{
+    background: #FFFFFF;
+    
+}
+.schedules{
+    position: absolute;
+    top: 323px;
+    left: 364px;
+    background: #F8F8F8;
+    width: 767px;
+    height: 297px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    overflow: auto;
+}
+

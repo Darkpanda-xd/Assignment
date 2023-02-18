@@ -1,0 +1,18 @@
+.file{
+    display: flex;
+    height: 49px;
+    background: #F9F9F9;
+    margin-bottom: 8px;
+    width: 226px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.file>a{
+    text-decoration: none;
+    color:  #36393E;
+    font-size: 12px;
+}
+.file>a>span{
+    margin-left: 14px;
+}
